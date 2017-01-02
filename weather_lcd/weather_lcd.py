@@ -56,7 +56,7 @@ def kelvin_to_farenheit(deg):
     return round((deg * 9/5) - 459.67)
 
 
-def continuous_weather_updates(delay=120):
+def continuous_weather_updates(delay=60):
     while True:
         current_weather()
         sleep(delay)
