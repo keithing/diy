@@ -55,10 +55,12 @@ def weather_description(weather):
 def kelvin_to_farenheit(deg):
     return round((deg * 9/5) - 459.67)
 
+
 def continuous_weather_updates(delay=120):
     while True:
         current_weather()
         sleep(delay)
+
 
 if __name__ == "__main__":
     continuous_weather_updates()
