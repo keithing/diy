@@ -19,3 +19,8 @@ Display the current weather on an external LCD using an Arduino.
 source: [Arduino LCD "Hello World"](https://www.arduino.cc/en/Tutorial/HelloWorld)
 
 
+### Usage
+
+Head to [openweathermap]("https://openweathermap.org"), sign up and generate
+an API key.  Set this key to the environment variable `OPENWEATHERMAP_API_KEY`.
+
