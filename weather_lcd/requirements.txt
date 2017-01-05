@@ -1,4 +1,2 @@
 pyserial
 requests
-
-url = "freegeoip.net/json/{IP}"
